@@ -12,6 +12,11 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+group :test, :development do
+  gem 'factory_bot_rails'
+  gem 'faker'
+end
+
 group :development do
   gem 'active_record-annotate'
 end
