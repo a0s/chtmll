@@ -37,10 +37,5 @@ module Chtmll
     config.generators do |g|
       g.test_framework :rspec
     end
-
-    logger = ActiveSupport::Logger.new(STDOUT)
-    logger.formatter = config.log_formatter
-    config.logger = ActiveSupport::TaggedLogging.new(logger)
-    config.colorize_logging = true
   end
 end

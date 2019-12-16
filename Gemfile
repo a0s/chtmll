@@ -7,12 +7,11 @@ gem 'rails'
 gem 'puma'
 gem 'pg'
 gem 'dotenv-rails'
+gem 'active_model_serializers'
+gem 'rails_param'
 
 group :development, :test do
   gem 'rspec-rails'
-end
-
-group :test, :development do
   gem 'factory_bot_rails'
   gem 'faker'
 end
