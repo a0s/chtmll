@@ -9,11 +9,14 @@ gem 'pg'
 gem 'dotenv-rails'
 gem 'active_model_serializers'
 gem 'rails_param'
+gem 'dry-transaction'
+gem 'dry-validation'
 
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'faker'
+  gem 'pry'
 end
 
 group :development do

@@ -1,4 +1,4 @@
-class AvgByThemeSerializer
+class AverageByThemeSerializer
   def initialize(data = {}, *args)
     @data = data
   end
@@ -9,4 +9,3 @@ class AvgByThemeSerializer
     end
   end
 end
-

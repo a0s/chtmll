@@ -1,4 +1,4 @@
-class AvgByCategorySerializer
+class AverageByCategorySerializer
   def initialize(data = {}, *args)
     @data = data
   end
