@@ -53,7 +53,7 @@ curl -s "localhost:3000/reviews?comments[]=find&theme_ids[]=6345&theme_ids[]=637
 ]
 ```
 
-`GET /reviews/avg_by_theme` - average sentiment for reviews filtered by theme_ids/category_ids/ comments and 
+`GET /reviews/avg_by_theme` - average sentiment for reviews filtered by theme_ids/category_ids/comments and 
 splitted by theme_id. Example:
 ```bash
 curl -s "localhost:3000/reviews/avg_by_theme?comments[]=find&category_ids[]=1223" | jq
@@ -114,7 +114,7 @@ Finished in 2.3 seconds (files took 2.11 seconds to load)
 
 * mass async insert over rabbitmq
 * better specs
-* enpoints for creation themes and categories
+* endpoints for creation themes and categories
 
 ## Known issues
 
