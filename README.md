@@ -100,14 +100,17 @@ curl -s -X POST --data '{"comment":"ololo", "themes":[{"theme_id":6345,"sentimen
 }
 ```
    
-## Tests
+## Run tests
 
 ```bash
-> rspec -f p                                                                                                                                                  (ruby-2.6.3@chtmll) 
-................................................
-
-Finished in 2.3 seconds (files took 2.11 seconds to load)
-48 examples, 0 failures
+docker-compose --file docker/compose-test.yml up --build --abort-on-container-exit --exit-code-from chtmll --renew-anon-volumes --remove-orphans 
+...
+chtmll_1    | ................................................
+chtmll_1    |
+chtmll_1    | Finished in 2.18 seconds (files took 1.49 seconds to load)
+chtmll_1    | 48 examples, 0 failures
+chtmll_1    |
+docker_chtmll_1 exited with code 0
 ```
 
 ## TODO

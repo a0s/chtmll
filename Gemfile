@@ -8,7 +8,6 @@ gem 'puma'
 gem 'pg'
 gem 'dotenv-rails'
 gem 'active_model_serializers'
-gem 'rails_param'
 gem 'dry-transaction'
 gem 'dry-validation'
 
